@@ -1,0 +1,70 @@
+Partlist
+
+Exported from TUEV071.sch at 18.09.19 06:04
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                       Device                      Package         Library             Sheet	 Bemerkung Hörlein
+
+C1       100nF                       C-EUC0603K                  C0603K          rcl                 1
+C2       10uF                        C-EUC0603K                  C0603K          rcl                 1
+C3       10uF                        C-EUC0603K                  C0603K          rcl                 1
+C4       10uF                        C-EUC0603K                  C0603K          rcl                 1
+C5       10uF                        C-EUC1210K                  C1210K          rcl                 1
+C6       10uF                        C-EUC0603K                  C0603K          rcl                 1
+C7       100pF                       C-EUC0603K                  C0603K          rcl                 1
+C8       100nF                       C-EUC0603K                  C0603K          rcl                 1
+C9       100nF                       C-EUC0603K                  C0603K          rcl                 1
+C10      10uF                        C-EUC0603K                  C0603K          rcl                 1
+C11      100nF                       C-EUC0603K                  C0603K          rcl                 1
+C12      100nF                       C-EUC0603K                  C0603K          rcl                 1
+C14      220pF                       C-EUC0603K                  C0603K          rcl                 1
+CN1                                  JST_2PIN-SMT-RA             JST-PH-2-SMT-RA adafruit            1           Nur bei externer LiPo mit JST Stecker! 
+CN2                                  JST_2PIN-SMT-RA             JST-PH-2-SMT-RA adafruit            1           Nur bei externer LiPo mit JST Stecker! Entweder CN1 oder CN2
+D1       MBR120                      DIODESOD-123                SOD-123         adafruit            1
+D2       B140F                       DIODE-DO214AC               DO214AC         diode               1
+D3       1.5SMC6.8CA                 SCHOTTKY-DIODESMC           SMC             diode               1           Überspannungsschutz
+D4       B140F                       DIODE-DO214AC               DO214AC         diode               1
+IC1      MCP73831                    MCP73831                    SOT23-5L        microchip-update-2  1           LiPo Laderegler
+J1       5.5x2.1mm Barrel            POWER_JACKSMD               POWER_JACK_SMD  SparkFun-Connectors 1           Entweder mit Mini-USB Stecker X1 oder Hohlstecker J1 ausrüsten
+JP1                                  PINHD-1X6                   1X06            adafruit            1           Programmieradapter
+L1       22uH                        L-USL5650M                  L5650M          l                   1
+L2       1.0uH                       L-EUL3230M                  L3230M          l                   1
+LED1     RED                         LEDCHIPLED_0805             CHIPLED_0805    led                 1
+Q1       IRLL014N                    N-HEXFET-2D_SOT232-IRLL014N SOT223          transistor-power    1
+R1       10k                         R-EU_M1206                  M1206           resistor            1
+R2       1k                          R-EU_M1206                  M1206           resistor            1
+R3       2k                          R-EU_M1206                  M1206           resistor            1
+R4       1k                          R-EU_M1206                  M1206           resistor            1
+R5       10k                         R-EU_M1206                  M1206           resistor            1
+R6       10k                         R-EU_M1206                  M1206           resistor            1
+R7       10k                         R-EU_M1206                  M1206           resistor            1
+R8       0R5                         R-EU_R2512                  R2512           resistor            1
+R9       330k                        R-EU_M1206                  M1206           resistor            1           Siehe Datenblatt MAX1771, andere Werte möglich
+R10      22k                         R-EU_M1206                  M1206           resistor            1
+R11      10k                         R-EU_M1206                  M1206           resistor            1
+R12      4k7                         R-EU_M1206                  M1206           resistor            1
+R13      100k                        R-EU_M1206                  M1206           resistor            1
+R14      100k                        R-EU_M1206                  M1206           resistor            1
+R15      10k                         R-EU_M1206                  M1206           resistor            1
+R16      330k                        R-EU_M1206                  M1206           resistor            1
+R17      56k                         R-EU_M1206                  M1206           resistor            1
+R18      10k                         R-EU_M1206                  M1206           resistor            1
+R21      1R                          R-EU_M1206                  M1206           resistor            1
+S1                                   31-XX                       B3F-31XX        switch-omron        1
+S2                                   31-XX                       B3F-31XX        switch-omron        1
+SJ1                                  SJ                          SJ              jumper              1
+TP1      TPSQPAD1-13Y                TPSQPAD1-13Y                P1-13Y          testpad             1           Kein Bauteil, hier den externen Ein/Ausschalter anschliessen
+TP2      TPSQPAD1-13Y                TPSQPAD1-13Y                P1-13Y          testpad             1           Kein Bauteil, hier den externen Ein/Ausschalter anschliessen
+TP3      TPSQPAD1-13Y                TPSQPAD1-13Y                P1-13Y          testpad             1           Kein Bauteil, hier externe Speisung direkt anschliessen +
+TP4      TPSQPAD1-13Y                TPSQPAD1-13Y                P1-13Y          testpad             1           Kein Bauteil, hier externe Speisung direkt anschliessen -
+U$1      AP2112-3.3                  AP2112-3.3                  SOT23-5L        adafruit            1
+U$2      L272D                       L272D                       SO16            adafruit            1
+U$3      MAX1771CSA                  MAX1771CSA                  SO08            maxim               1           MAX1771 erzeugt die 12V oder 24V für die Uhr 
+U$4      ESP-12E                     ESP-12E                     ESP-12E         adafruit            1           Prozessor + WLAN Empfänger
+U$5      HA1X18650SMD                HA1X18650SMD                HA1X18650SMD    MeineLIB            1           Batteriehalter für 18650 LiPo-Zellen
+U$6      TOBU3                       TOBU3-REICHELT              TOBU3-REICHELT  con-hirschmann      1           Cinchbuchse für die Tochteruhr
+X1       MINI-USB-SHIELD-UX60-MB-5ST MINI-USB-SHIELD-UX60-MB-5ST UX60-MB-5ST     con-hirose          1           Mini-USB Stecker dient zur Einspeissung beim Laden
+X2                                   233-102                     233-102         con-wago            1           Soll nicht besstückt werden
