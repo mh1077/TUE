@@ -64,7 +64,11 @@ U$1      AP2112-3.3                  AP2112-3.3                  SOT23-5L       
 U$2      L272D                       L272D                       SO16            adafruit            1
 U$3      MAX1771CSA                  MAX1771CSA                  SO08            maxim               1           MAX1771 erzeugt die 12V oder 24V für die Uhr 
 U$4      ESP-12E                     ESP-12E                     ESP-12E         adafruit            1           Prozessor + WLAN Empfänger
-U$5      HA1X18650SMD                HA1X18650SMD                HA1X18650SMD    MeineLIB            1           Batteriehalter für 18650 LiPo-Zellen
+U$5      HA1X18650SMD                HA1X18650SMD                HA1X18650SMD    MeineLIB            1           Batteriehalter für 18650 LiPo-Zellen, bitte eine 3.7V LiPo Zelle mit Schutzschaltung einsetzen (Brandgefahr!) Mindestens 3200mA einsetzen.
 U$6      TOBU3                       TOBU3-REICHELT              TOBU3-REICHELT  con-hirschmann      1           Cinchbuchse für die Tochteruhr
 X1       MINI-USB-SHIELD-UX60-MB-5ST MINI-USB-SHIELD-UX60-MB-5ST UX60-MB-5ST     con-hirose          1           Mini-USB Stecker dient zur Einspeissung beim Laden
 X2                                   233-102                     233-102         con-wago            1           Soll nicht besstückt werden
+
+         LiPo Batterie 3.7V, mindestens 3200mAh Bitte unbedingt eine mit Schutzschaltung gegen Kurzschluss und Tiefentladeschutz einsetzen!
+         Gehäuse FiBox PC 100/35 LT 100x100x35mm mit durchsichtigen Deckel.
+         Schalter zum Einschalten (1polig UM)
